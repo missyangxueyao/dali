@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/logoin.css">
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+<div class="logoin">
+    <h1>注册</h1>
+    <div class="logoinone logoin-phone">
+        <input type="text" placeholder="请输入手机号码">
+    </div>
+    <div class="logoinone logoin-test">
+        <input type="text" placeholder="请输入验证码">
+        <span>获取验证码</span>
+    </div>
+    <div class="logoinone logoin-password">
+        <input type="password" placeholder="请输入密码">
+    </div>
+    <div class="logoinone logoin-invite">
+        <input type="text" placeholder="请输入邀请码（选填）">
+    </div>
+    <div class="logoin-in"><a href="infomation.html">注册</a></div>
+    <div class="logoin-register"><a href="logoin.html">已有账号，去登录</a></div>
+
+
+</div>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script>
+    window.onload = function () {
+        var bodyh = document.documentElement.clientHeight
+        $('body').height(bodyh)
+    }
+</script>
+</body>
+
+</html>
